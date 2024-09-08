@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+place-items: center;
+background-image:  radial-gradient( circle,rgb(67, 41, 193),rgb(19, 102, 162),rgb(232, 69, 199),pink,rgb(27, 162, 203));
+/* background-image:  repeating-linear-gradient( to bottom right,rgb(67, 41, 193),rgb(19, 102, 162),rgb(232, 69, 199),pink,rgb(27, 162, 203),navy 30px); */
+}
+section{
+  
+    border: 10px solid green;
+    padding: 40px;
+    margin: 60px;
+    background-color: lightgreen;
+    box-shadow: -10px -10px 10px rgb(91, 143, 91);
+    
+}
